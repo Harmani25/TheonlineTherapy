@@ -163,25 +163,181 @@ nav{
     }
   }
 
-.findtherapist{
-    
-    justify-content: center;
-    display: flex;
-    width: auto;
-    height: 300px;
-    background:url();
-   
-    padding: 1.2rem;
+  .lister{
 
-    
-    
-}
-
-.FT{
   
+    background: url('assets/therapybanner.jpg') center/cover;
+    height: 550px; 
+    display: flex;
     
-    height: 100px;
-    padding: 1.2rem;
-    width: 50px;
+  
+    justify-content: start;
     
-}
+    color: rgb(34, 238, 78);
+    
+    width: 100%;
+  }
+  
+  .card-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .card1 {
+    width: 500px;
+    margin: 20px;
+    overflow: auto;
+    border-radius: 10px;
+    
+  }
+  
+  
+  
+  
+  .card-body1 {
+    padding: 20px;
+    font-family: "roboto slab";
+  }
+  
+  .card-title1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text1 {
+    color: #030303;
+    
+    border-radius: 10px;
+  
+    display: flex;
+    padding: 1rem;
+    
+  }
+  
+  .btn-primary1 {
+    background-color: #1f5357;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .btn-primary1:hover {
+    background-color:  #ffffff;
+    color: #1f5357;
+  }
+  
+  .details{
+    color: #1f5357;
+    display:grid;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-family: "roboto slab";
+    font-size: 25px;
+  }
+  
+  .title{
+    color: #1f5357;
+    display:-ms-grid;
+    flex-wrap: wrap;
+    justify-content:start;
+    font-family: "roboto slab";
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .SO{
+    color: #1f5357;
+    background-color: #4ba976;
+    border: 3px solid black;
+  }
+  .services {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: 'roboto slab';
+    font-size: larger;
+  }
+  
+  .services > div {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .services h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .services p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .card {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .services > div {
+      margin-right: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .service-cards .card {
+      width: calc(100% - 20px);
+    }
+  }
+  
