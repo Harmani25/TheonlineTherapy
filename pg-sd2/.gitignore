@@ -122,3 +122,4 @@ dist
 
 #ignore env file
 .env
+.env-sample
